@@ -1,7 +1,8 @@
 # tesla-hdmi — DEPRECATED
 
 > This repository was the **early prototype** of what is now
-> **[mazix/tesla-pi-station](https://github.com/mazix/tesla-pi-station)**.
+> **[mazix/mazix-teslapi](https://github.com/mazix/mazix-teslapi)**
+> (formerly published as `tesla-pi-station`).
 > Active development continues there.
 
 ## Why
@@ -29,7 +30,8 @@ Once that was working, the same Pi grew to need:
 By the time the second feature landed it was clear this is one cohesive
 *Tesla Pi station* project, not an HDMI bridge, so it was rewritten as
 a modular, idempotent installer at
-**https://github.com/mazix/tesla-pi-station**.
+**https://github.com/mazix/mazix-teslapi** (the project is now branded
+**maziX TeslaPI**; the repo was first published as `tesla-pi-station`).
 
 The HDMI capture path from this repo now lives there as **module 12**
 (`12-hdmi-capture.sh`).
